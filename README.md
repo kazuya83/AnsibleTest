@@ -24,3 +24,16 @@ $ pip3 install ansible==4.2.0
 ```
 ansible --version
 ```
+
+## マネージドノードの要件
+* python2.6以上、またはPython3.5以上
+* SSH接続、ファイル転送方式としてSFTPまたはSCP
+
+## プライブック
+自動化したいマネージドノードへの処理をYAML形式で定義したファイル。Ansibleで自動化の仕組みを実装していく上で、、医術する時間が一番長くなるのがプレイブック。
+プライブックはいくつかのセクションに分かれており、「hosts」には、操作対象の反映を指定する・
+
+### プレイブック実行コマンド例
+```
+ansible-playbook -i inventory.ini playbool.yml
+```
