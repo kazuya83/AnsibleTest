@@ -10,7 +10,7 @@ $ pip install pip --upgrade
 $ pip install ansible==4.2.0
 ```
 
-# install手順　(MacOS)
+## install手順　(MacOS)
 ```
 $ /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 $ brew install python@3.9
